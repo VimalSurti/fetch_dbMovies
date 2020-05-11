@@ -1,0 +1,26 @@
+#container{
+    height: 100%;
+    padding: 1em;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: scroll;
+    transition-duration: .7s;
+}
+
+#box img{
+    width: 165px;
+    height: 180px;
+    padding:0 1em .5em 1em;
+}
+
+#box{
+    transition-duration: .7s;
+}
+
+#box:hover{
+    transform: scale(1.1);
+}
+
+
